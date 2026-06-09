@@ -1507,7 +1507,7 @@
 
     // Contact form - posts to the Cloudflare Worker, which emails David via Resend.
     (function () {
-      var FORM_ENDPOINT = 'https://REPLACE-WITH-YOUR-WORKER-URL.workers.dev'; // set after deploying the Worker
+      var FORM_ENDPOINT = 'https://contact.david-mcglennon.workers.dev'; // Cloudflare Worker (Resend)
       var form = document.getElementById('contact-form');
       var success = document.getElementById('form-success');
       if (!form) return;
