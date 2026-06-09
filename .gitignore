@@ -1,0 +1,5 @@
+# OS / editor cruft (keep the deploy repo clean)
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
