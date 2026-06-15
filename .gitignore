@@ -3,3 +3,9 @@
 Thumbs.db
 desktop.ini
 *.swp
+
+# Working docs / drafts / scratch - never publish to the live site
+*.docx
+*.doc
+~$*
+_*.txt
